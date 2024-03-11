@@ -1,4 +1,3 @@
-
 package Controlador;
 
 import java.sql.Connection;
@@ -7,11 +6,12 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 public class ConexionBD {
     Connection con;
     String bd="db_imsreports";
-    String url="jdbc:mysql://localhost:3307/" + bd + "?useUnicode=true&use" + "JDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&" + "serverTimezone=UTC";
+    String url="jdbc:mysql://localhost:3307/" + bd + "?useUnicode=true&use" + 
+            "JDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&"
+            + "serverTimezone=UTC";
     String usuario="root";
     String pwd="";
     String driver="com.mysql.cj.jdbc.Driver";

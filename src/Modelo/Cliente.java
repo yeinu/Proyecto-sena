@@ -1,4 +1,3 @@
-
 package Modelo;
 
 
@@ -8,11 +7,11 @@ public class Cliente {
     private String Direccion;       
     private int Telefono;
     
+   //constructor vacio
     public Cliente() {
-        
- }
+    }
+    
     //Constructor Agregar
-
     public Cliente(String Nombre, String Direccion, int Telefono) {
         this.Nombre = Nombre;
         this.Direccion = Direccion;
@@ -61,5 +60,5 @@ public class Cliente {
     public void setTelefono(int Telefono) {
         this.Telefono = Telefono;
     }
-    
-}
+
+}//Fin de la clase
